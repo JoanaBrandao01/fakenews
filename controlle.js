@@ -1,5 +1,5 @@
 chrome.browserAction.setPopup({
-    width: 400,
-    height: 600
+    width: 1000,
+    height: 1000
   });
   
