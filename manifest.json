@@ -8,5 +8,9 @@
     {
         "default_title": "FakeNews",
         "default_popup": "index.html"
-    }
+    },
+    "background": {
+        "scripts": ["nome-do-arquivo.js"]
+      }
+      
 }
