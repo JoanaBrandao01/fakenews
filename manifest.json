@@ -8,9 +8,5 @@
     {
         "default_title": "FakeNews",
         "default_popup": "index.html"
-    },
-    "background": {
-        "scripts": ["controlle.js"]
-      }
-      
+    }  
 }
