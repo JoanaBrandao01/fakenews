@@ -1,10 +1,10 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "version":"0.0.1",
     "name": "FakeNews Extension",
     "description": "Extensão para identificar fake news",
     "author": "Dev Team",
-    "browser_action":
+    "action":
     {
         "default_title": "FakeNews",
         "default_popup": "index.html"

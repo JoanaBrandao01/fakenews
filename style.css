@@ -1,0 +1,12 @@
+#usr{
+    background-image: url("imagens/lupa.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+    padding-left: 1.3em;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+body{
+    border-radius: 200px;
+}
