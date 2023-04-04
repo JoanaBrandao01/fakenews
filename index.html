@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>fake news</title>
-</head>
-<body>
-
-  <div class="search">
-    <input id= "usr" type="text">
-
-  </div>
-
-  <div class="main-section">
-
-    <div class="porcentagem">
-        <h3> Esta notícia não é verídica </h3>
-      <span></span>
-      <span class="porcentagem">40%</span>
+  </head>
+  <body>
+    <!--Input da pesquisa-->
+    <div class="search">
+      <input id="usr" type="text" />
+    </div>
+    <!--div de tudo o que fica abaixo do input de pesquisa-->
+    <div class="main-section">
+      <!--div onde mostrará o anúncio da veracidade da notícia e a porcentagem da veracidade-->
+      <div class="veracidade">
+        <h3>Esta informação não é verídica!</h3>
+        <span class="porcentagem"></span>
+        <span id="val-porcentagem">40%</span>
+      </div>
+      
+      <!--link para notícias verídicas que comprovam a veracidade/inveracidade do fato-->
+      <footer>
+        <div class="link">
+          <a href="">Notícias de comprovação</a>
+        </div>
+        <div class="report">
+          <a href="denuncia.html"><button type="button">Denunciar</button></a>
+        </div>
+      </footer>
+      <!--botão denúncia que liga ao arquivo denuncia.html que possui um formulário-->
+      
     </div>
 
-    <div class="link">
-      <a href="">Notícias de comprovação</a>
-    </div>
-    <div class="report">
-      <a href="denuncia.html"><button type="button">Denunciar</button></a>
-    </div>
-
-  </div>
-
-
-  <script src="controlle.js"></script>
-</body>
+    <!--script de ligação ao javascript-->
+    <script src="controlle.js"></script>
+  </body>
 </html>
