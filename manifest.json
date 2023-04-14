@@ -4,7 +4,10 @@
     "manifest_version": 3,
     "permissions": [
       "tabs",
-      "scripting"
+      "scripting",
+      "activeTab",
+      "background",
+      "clipboardRead"
     ],
     "action": {
       "default_popup": "index.html"
@@ -14,5 +17,9 @@
         "matches": ["<all_urls>"],
         "js": ["content.js"]
       }
-    ]
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  
   }

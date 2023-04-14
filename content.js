@@ -1,2 +1,2 @@
 var url = window.location.href;
-chrome.runtime.sendMessage({url: url});
+chrome.runtime.sendMessage({action: 'getURL', url: url});
